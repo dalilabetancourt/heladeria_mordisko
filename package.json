@@ -1,0 +1,28 @@
+{
+  "name": "heladeria_mordisko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalilabetancourt/heladeria_mordisko.git"
+  },
+  "keywords": [],
+  "author": "Dalila Betancourt",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dalilabetancourt/heladeria_mordisko/issues"
+  },
+  "homepage": "https://github.com/dalilabetancourt/heladeria_mordisko#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
