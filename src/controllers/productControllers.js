@@ -21,12 +21,12 @@ const createProduct = (req, res) => {
 };
 
 // Obtener productos
-const getProducts = (req, res) => {
-    try{
-const products = JSON.parse(fs.readFileSync("src/data/products.json", "utf-8"));
-    res.json(products);
-    }catch(error){
-        console.log(error)
+const getProducts = () => {
+    try {
+        const data = fs.readFileSync('src/data/products.json', 'utf-8');
+        return data ? JSON.parse(data) : [];
+    } catch (error) {
+        return [];
     }
     
 };
