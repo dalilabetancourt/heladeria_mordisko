@@ -30,17 +30,31 @@ El objetivo principal es aprender a construir una estructura backend organizada 
 ## 📂 Estructura del proyecto
 
 ```
-heladeria_mordisko
-│
-├── src
-│   ├── routes
-│   │   └── appRoutes.js
+/
+├── node_modules/
+├── src/
+│   ├── controllers/
+│   │   ├── appController.js
+│   │   ├── productController.js
+│   │   └── userController.js
 │   │
+│   ├── data/
+│   │   ├── products.json
+│   │   └── users.json
+│   │
+│   ├── routes/
+│   │   ├── appRoutes.js
+│   │   ├── productRoutes.js
+│   │   └── userRoutes.js
+│   │
+│   ├
 │   └── index.js
 │
+├── .gitignore
 ├── package.json
+├── package-lock.json
 ├── README.md
-└── LICENSE
+├── license.mdd
 ```
 
 ---
